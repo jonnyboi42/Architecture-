@@ -31,7 +31,7 @@ Make sure you have **Node.js** and **npm** installed on your machine.
 
 2. Navigate to the project directory:
    ```bash
-   cd architecture-blog
+   cd project_directory
    ```
 
 3. Install the dependencies:
