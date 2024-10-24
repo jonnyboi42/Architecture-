@@ -1,3 +1,4 @@
+<img width="1423" alt="image" src="https://github.com/user-attachments/assets/a3a145bc-6819-40be-b2e8-c83a4eb95b93">
 
 # Architecture Blog Website
 
