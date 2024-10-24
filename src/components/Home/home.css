@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+body {
+  margin: 20px;
+  font-family: "Space Grotesk", serif;
+  background: #f7f8f8;
+}
+ul, li {
+  padding: 0;
+  list-style-type: none;
+}
+h2{
+  color: #040404;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+h3 {
+  color: #030303;
+  font-weight: bold;
+}
+p {
+  color: #828b8a;
+}
+
+header{
+  max-width: 1200px;
+  
+  border-bottom: 1px solid #bbc7c7;
+  display: grid;
+  grid-template-columns: 1fr ;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 20px auto;
+  
+  
+  
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 20px auto;
+
+}
+
+article.featured{
+  grid-column: span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  border-bottom: 1px solid #bbc7c7;
+  padding-bottom: 40px;
+
+}
+article img, article.featured img{
+  /* Here we are saying we want the imgs to take up 100% of the column
+  that it has been assigned to this will keep the content from sliding way over*/
+  width: 100%;
+
+  /* border: 4px solid #fff;
+  border-radius: 8px; */
+}
+
+article p, article h3{
+  margin: 20px 10px;
+}
+
+@media screen and (max-width: 980px){
+  article{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 760px){
+  article, article.featured{
+    display: block;
+    margin: 0 20px;
+  }
+
+  header{
+    grid-column:span 3;
+    text-align: center;
+  }
+}
