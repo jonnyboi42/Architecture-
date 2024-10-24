@@ -1,8 +1,49 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Architecture Blog Website
 
-Currently, two official plugins are available:
+This is a simple Architecture Blog Website built using **React** and **Vite**. It demonstrates responsive design with multiple articles displayed in a grid layout, adjusting to different screen sizes. The project showcases a modern layout and uses Google Fonts for typography styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- **Responsive Design**: The layout adapts to different screen sizes using CSS Grid and Flexbox.
+- **Multiple Articles**: Displays a featured article and a trio of other articles in a grid format.
+- **Modern Styling**: Utilizes modern CSS techniques and external fonts for a sleek look.
+
+## Technologies Used
+- **React**
+- **Vite**
+- **CSS Grid/Flexbox**
+- **Google Fonts**
+
+## Getting Started
+
+To view this project locally, follow these steps:
+
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd architecture-blog
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Project
+
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+2. Open your browser and go to the URL provided by Vite (usually `http://localhost:5173` or similar) to view the project.
