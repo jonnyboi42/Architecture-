@@ -1,0 +1,46 @@
+.about-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+      
+}
+
+.about-section{
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+
+}
+
+
+.about-section > img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-section > div > h1{
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: .4em;
+    font-size: 2.2rem;
+    
+}
+.about-section > div > p{
+    line-height: 33px;
+    font-size: 1.2rem;
+}
+
+.projects{
+    grid-column: span 2;
+}
+
+.projects > div > button{
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: .3em;
+}

@@ -1,13 +1,15 @@
 import React from 'react';
 import Title from '../Title';
+import Header from '../Header/Header';
 
 const Home = () => {
   return (
     <main className="grid-container">
-        <header>
+      <Header/>
+        {/* <header>
             <h1>Architecture in the Modern Age</h1>
   
-        </header>
+        </header> */}
       <article className="featured">
         <img src="src/assets/imgs/modern-arch.jpeg" alt="featured img" />
         <div>
